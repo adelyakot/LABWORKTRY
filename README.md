@@ -69,7 +69,7 @@ stride specifies the byte offset between consecutive generic vertex attributes. 
 Finally, glDrawArrays is responsible for drawing primitives. The primitive type is passed as the first argument. In this case, a triangle is drawn. The second argument determines which vertex number to start at. The last argument specifies the number of vertices to use.
 
 ## Entering the main GLUT loop.
-**glutMainLoop();
+**glutMainLoop();**
 
 *void glutMainLoop(void);*
 Well, the last thing to do in order to run our program is to enter the so-called main GLUT loop. This cycle launches the so-called heart of GLUT, which provides the relationship between the operating system and those functions that are responsible for the window, receive information from I / O devices. 
