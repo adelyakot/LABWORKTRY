@@ -5,7 +5,7 @@
 2. **#include <GL/freeglut.h>** -freeglut is an open source alternative to the OpenGL Utility Toolkit (GLUT). GLUT (and therefore freeglut) allows the user to create and manipulate windows that provide an OpenGL context on a wide range of platforms, as well as interact with the mouse, keyboard, and joystick. freeglut is meant to be a complete replacement for GLUT, and has very few differences from it. 
 3. **#include <glm/vec3.hpp>** - Vec3 by glm is a utility class that represents a 3D vector
   
- ## Code Discription
+ ## Code Description
  GLuint VBO;
  Vertex Buffer Object (VBO) is such an OpenGL facility that allows you to load certain data into GPU memory. For example, if you want to tell the GPU the coordinates of vertices, colors or normals, you need to create a VBO and put this data into it.
 
