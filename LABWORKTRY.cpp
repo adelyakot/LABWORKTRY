@@ -1,7 +1,6 @@
 ﻿#include <GL/glew.h>
 #include <iostream>
 #include <GL/freeglut.h>
-
 #include <glm/vec3.hpp>
 
 
@@ -19,7 +18,7 @@ static void RenderSceneCB()
 
 }
 
-int main(int argc, char* argv[])
+int main(int argc, char** argv)
 {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
